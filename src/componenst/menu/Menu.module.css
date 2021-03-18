@@ -1,0 +1,13 @@
+.menu{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    width: 300px;
+    
+}
+.menu > li > a{
+    padding: 5px;
+    text-decoration: none;
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

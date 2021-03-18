@@ -1,10 +1,12 @@
 {
     "compilerOptions": {
+        "plugins": [{ "name": "typescript-plugin-css-modules" }],
+        "allowJs": false,
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "commonjs",
-        "target": "es5",
+        "target": "es6",
         "jsx": "react"
     },
   
