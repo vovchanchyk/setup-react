@@ -21,5 +21,12 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "no-use-before-define": "off",
+        "react/jsx-filename-extension": "off",
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
+        "react/prop-types": 0,
+        "linebreak-style": "off"
+        
     }
 }
