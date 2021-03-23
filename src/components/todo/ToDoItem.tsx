@@ -4,7 +4,7 @@ type Props = {
   todo:string,
   date :string,
 }
-const ToDoItem:React.FC<Props> = ({ todo, date }:Props) => (
+const ToDoItem:React.FC<Props> = ({ todo, date }) => (
 
   <li className="todolist__item">
     <span className="todolist__item-text">{todo}</span>
