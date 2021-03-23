@@ -1,23 +1,92 @@
 @import "./styles/zero.scss";
 
-.header {
-  padding: 9px;
-  background-color: thistle;
-  &__title {
-    font-size: 20px;
-  }
-}
 
-.main {
-  background-color: rgb(39, 37, 37);
-  height: 50px;
+.header {
+    display: flex;
+    padding: 20px 50px;
+    background-color: #f2f3f4;
+
+    &__logo {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: black;
+        color: gold;
+    }
 }
-.sidebar {
-  padding: 10px 0px 0px 15px;
-  &__title {
-    font-size: 20px;
-  }
-  &__nav {
-    list-style: none;
-  }
+.body {
+    padding:50px 30px;
+    font-size: 18px;
+    
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+}
+.addtodo {
+    display: flex;
+    padding: 30px 0px;
+    
+		&__title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3px; 
+            font-weight: 600;     
+		}
+
+		&__field {
+            padding-left: 9px;
+            border-bottom: solid 0.5px;
+            flex-grow: 1;
+            margin: 0 15px;
+		}
+
+		&__btn {
+            font-size: 16px;
+            color: white;
+            background-color: blanchedalmond;
+            padding: 7px;
+            border-radius: 19px;
+            font-weight: 700;
+		}
+}
+.todolist {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+		&__item {
+            margin: 5px;
+            display: flex;
+
+		}
+
+		&__item-text {
+            margin-right: 20px;
+            flex-grow: 1;
+            border-bottom: dotted 0.3px;
+            padding: 5px 10px;
+		}
+
+		&__item-time {
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 5px;
+            margin-right: 10px;
+		}
+
+		&__item-done {
+            font-size: 16px;
+            color: white;
+            background-color: blanchedalmond;
+            padding: 7px;
+            border-radius: 19px;
+            font-weight: 700;  
+		}
 }
