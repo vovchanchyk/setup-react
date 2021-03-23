@@ -18,7 +18,7 @@ const ToDo:React.FC = () => {
   return (
     <div className="todo">
       <div className="addtodo">
-        <span className="addtodo__title">ADD TODO</span>
+        <span className="addtodo__title">ADD TODO!!</span>
         <input ref={ref} type="text" className="addtodo__field" placeholder="to do" />
         <button type="button" className="addtodo__btn" onClick={addTodo}>add todo</button>
       </div>
